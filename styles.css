@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    position: fixed;         
+    top: 0;         
+    left: 0;            
+    width: 250px;           
+    height: 100vh;          
+    background-color: #2E2E2E;
+    color: #ffffff;
+    padding: 20px;
+    overflow-y: auto;       
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.sidebar nav ul {
+    list-style: none;
+}
+
+.sidebar nav ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.sidebar nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    margin-left: 250px;     
+    padding: 40px;
+}
+
+.content h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile .info h2 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.profile .info p {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.profile .info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.profile .info a:hover {
+    text-decoration: underline;
+}
+
+.content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.content strong {
+    font-weight: bold;
+}
+
+.sidebar nav ul li a.active {
+    color: #4BB4E6; 
+}
+
+.content .publication {
+    margin-left: 20px;
+    text-indent: -20px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.bitcoin-img {
+    width: 300px;
+    height: 200px;               
+}
+
+.news-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.news-table th, .news-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.news-table th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+}
+
+.news-table td a {
+    color: #007bff; 
+    text-decoration: none;
+}
+
+.news-table td a:hover {
+    text-decoration: underline;
+}
